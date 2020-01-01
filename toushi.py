@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 initial =  float(input("初期投資額: ").strip())
 monthly =  float(input("積立額/月: ").strip())
 years =    float(input("運用年数: ").strip())
