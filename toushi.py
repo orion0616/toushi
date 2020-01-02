@@ -9,7 +9,7 @@ total = initial
 
 interestOfMonth = interest/12/100
 
-for m in range(12*int(years)):
+for m in range(int(12*years)):
     sumOfInvest += monthly
     total *= (1 + interestOfMonth)
     total += monthly
